@@ -1,9 +1,11 @@
 package StepDefs;
 
+import com.qmetry.qaf.automation.step.QAFTestStepProvider;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+@QAFTestStepProvider
 public class FirstStepDef {
 
     @Given("step1")

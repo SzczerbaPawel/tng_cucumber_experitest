@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Default Suite">
-    <test name="selenium-java">
+<suite name="TestNG - Cucumber" verbose="0">
+    <test name="Gherkin-QAF-Test">
+        <parameter name="step.provider.pkg" value="StepDefs" />
+        <parameter name="scenario.file.loc" value="src/test/resources/features" />
         <classes>
-            <class name="MyRunner.TestRunner"/>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
         </classes>
     </test>
 </suite>

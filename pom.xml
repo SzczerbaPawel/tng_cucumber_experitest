@@ -22,7 +22,6 @@
             <version>7.6.1</version>
         </dependency>
 
-
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -47,11 +46,16 @@
             <version>7.4.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
             <version>7.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qmetry</groupId>
+            <artifactId>qaf-cucumber</artifactId>
+            <version>3.1.0</version>
         </dependency>
     </dependencies>
     <build>
