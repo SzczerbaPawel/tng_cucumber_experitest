@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="testng_cucumber" />
+        <module name="ct_cucumber_testng" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ct_cucumber_testng" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
